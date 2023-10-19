@@ -1,0 +1,42 @@
+nav {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+  
+    @media (max-width: 800px) {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+      padding: 1rem;
+    }
+  }
+  
+  nav img {
+    width: 150px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    @media (max-width: 800px) {
+      padding: 0.8rem;
+      font-size: 1rem;
+    }
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fb8460;
+  }
+  
+  nav a:active,
+  a:hover {
+    color: #8d452d;
+  }

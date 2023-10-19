@@ -1,0 +1,44 @@
+/* Form styles */
+
+form {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form div {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    margin-bottom: 20px;
+    @media (max-width: 800px) {
+      width: 100%;
+    }
+  }
+  
+  label {
+    color: #fff;
+    font-size: 16px;
+  }
+  
+  input,
+  textarea {
+    width: 300px;
+    padding: 10px;
+    background-color: var(--night-black);
+    color: #fff;
+    font-size: 14px;
+    border: solid white 1px;
+    border-radius: 20px;
+    @media (max-width: 800px) {
+      width: 200px;
+    }
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px #f0f7f0, 0 0 10px #f0f7f0, 0 0 10px #f0f7f0, 0 0 10px #f0f7f0;
+  }
