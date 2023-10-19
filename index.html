@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="indexx.css" text="text/css" />
+
+    <title>Riyaz Maind</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+      <style>
+      
+        /* Base styles for your website */
+
+        /* Media Query for screens with a max width of 768px */
+        @media (max-width: 768px) {
+            /* Adjust the styles for smaller screens here */
+            body {
+                font-size: 16px; /* Adjust the font size for smaller screens */
+            }
+
+            /* Example: Hide the illustration in the header on smaller screens */
+            .illustration {
+                display: none;
+            }
+        }
+
+        /* Media Query for screens with a max width of 480px */
+        @media (max-width: 480px) {
+            /* Adjust the styles for even smaller screens here */
+            h1 {
+                font-size: 24px; /* Further reduce font size for very small screens */
+            }
+        }
+      </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="wdwadas.png" alt="Logo" />
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="hero">
+        <div class="hero-text">
+          <h5>UI/UX designer & Developer</h5>
+          <h1>EMBARK ON A COSMIC JOURNEY OF CREATIVITY and CREATION</h1>
+          <h3>
+            Let's embark on a Design Journey together. Where your brand breaks free
+            from Boundaries, and reaches Cosmic success.
+          </h3>
+          <div class="hero-buttons">
+            <a href="#contact"><button>Embark Now</button></a>
+            <a href="#work"><button class="secondary">See my work</button></a>
+          </div>
+        </div>
+        <div class="illustration">
+          <img src="main_illustration.svg" alt="" />
+        </div>
+      </div>
+    </header>
+
+    <section id="about">
+      <h1>Hello I am Riyaz.</h1>
+      <div class="about-box">
+        <img src="1679225472990.jpeg" alt="profile illustration" />
+        <div class="about-details">
+          <p>
+            My name is Riyaz Maind and I'm passionate about improving the lives of
+            others through design. I'm constantly learning new things everyday and
+            love meeting people who are motivated and unafraid of sharing their ideas
+            with the world. I'm a self taught designer and have learnt a lot of the
+            processes, concepts and theories of UX/UI and product design through
+            attending workshops, reading blogs and applying these to projects in my
+            spare time and at work. I am very much a big-picture thinker and enjoy
+            working on products end to end, from ideation all the way to development.
+          </p>
+          <a href="#footer"><button class="tertiary">Connect with Me!</button></a>
+        </div>
+      </div>
+    </section>
+    <section id="work">
+      <h5>UI/UX designer & Developer</h5>
+      <h1>Portfolio Showcase</h1>
+      <div class="project-box">
+        <div class="project-card">
+          <img src="connect with me.png" alt="Project overview Image" />
+          <div class="project-card-details">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+              exercitationem sunt quas itaque aperiam tenetur, eaque alias quisquam
+              nobis unde deleniti explicabo omnis eveniet expedita quasi suscipit id
+              atque delectus.
+            </p>
+            <img src="github-link.svg" alt="" />
+            <img src="live-link.svg" alt="" />
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="header.png" alt="Project overview Image" />
+          <div class="project-card-details">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+              exercitationem sunt quas itaque aperiam tenetur, eaque alias quisquam
+              nobis unde deleniti explicabo omnis eveniet expedita quasi suscipit id
+              atque delectus.
+            </p>
+            <img src="github-link.svg" alt="" />
+            <img src="live-link.svg" alt="" />
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="connect with me.png" alt="Project overview Image" />
+          <div class="project-card-details">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+              exercitationem sunt quas itaque aperiam tenetur, eaque alias quisquam
+              nobis unde deleniti explicabo omnis eveniet expedita quasi suscipit id
+              atque delectus.
+            </p>
+            <img src="github-link.svg" alt="" />
+            <img src="live-link.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skills">
+      <h1>MY SKILLSET</h1>
+      <div id="skillset">
+        <h4>c</h4>
+        <h4>Java</h4>
+        <h4>HTML</h4>
+        <h4>CSS</h4>
+        <h4>Javascript</h4>
+        <h4>Graphis Dsign</h4>
+        <h4>Git/Github</h4>
+        
+      </div>
+    </section>
+    <section id="contact">
+      <h1>Contact Me</h1>
+      <form>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div>
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phone" required />
+        </div>
+        <div>
+          <label for="email">Email Address:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="tertiary">Submit</button>
+      </form>
+    </section>
+
+    <footer id="footer">
+      <h3>My socials media accounts :</h3>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/riyaz-maind-66a108250" target="_blank"><img src="linkedin-socials.svg" alt="linkdin profile" ></a>
+
+        <a href="https://x.com/RiyazMaind?t=fe0u2nIfQLRpJHHQvnqpzQ&s=09" target="_blank"><img src="twitter-socials.svg" alt="twitter profile" ></a>
+
+        <a href="https://github.com/RiyazMaind" target="_blank"><img src="github-socials.svg" alt="twitter profile" ></a>
+      </div>
+      <div class="address">
+        <b>Maind Riyaz</b>
+        <em>riyazmaind@gmail.com</em>
+      </div>
+    </footer>
+  </body>
+</html>
