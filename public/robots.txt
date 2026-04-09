@@ -1,0 +1,18 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://riyaz.dev/sitemap.xml
+
+# Crawl delay for search engines
+Crawl-delay: 1
+
+# Google specific directives
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+# Specific rules
+User-agent: *
+Allow: /
