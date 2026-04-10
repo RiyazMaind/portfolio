@@ -25,12 +25,21 @@ export const metadata: Metadata = {
     title: "Riyaz Maind | Data Science & Analytics Portfolio",
     description: "Data science and ML portfolio by Riyaz Maind - Projects in machine learning, analytics dashboards, and intelligent models.",
     siteName: "Riyaz Maind Portfolio",
+    images: [
+      {
+        url: "https://riyaz.dev/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Riyaz Maind - Data Science Portfolio",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     creator: "@riyazmaind",
     title: "Riyaz Maind | Data Science & Analytics Portfolio",
     description: "Riyaz Maind - Data science enthusiast building ML models and analytics dashboards.",
+    images: ["https://riyaz.dev/twitter-image.jpg"],
   },
   robots: {
     index: true,
@@ -38,6 +47,10 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://riyaz.dev",
+  },
+  other: {
+    "theme-color": "#000000",
+    "msapplication-TileColor": "#000000",
   },
 };
 
